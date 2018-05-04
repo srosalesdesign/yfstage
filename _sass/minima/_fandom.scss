@@ -1,0 +1,106 @@
+
+
+body.issue-fandom {
+
+  /* Reset 100% height on parent containers */
+  .container, .page-content, .wrapper, .page-wrapper {
+    height: auto;
+  }
+}
+
+
+.fhvh {
+  height: 100vh;
+}
+
+
+.fandom-page-wrapper {
+
+  .story-wrapper {
+    background: none;
+    height: auto;
+  }
+
+  .section-intro {
+  padding: 3em;
+}
+
+
+.inner-section-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title-info {
+    padding-top: 5em;
+    text-align: center;
+}
+
+  .sub-title {
+    text-align: center;
+    color: #0affa8;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .story-title {
+    text-align: center;
+    font-size: 9vw; 
+    color: #0affa8;
+     webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: unset;
+  }
+
+  .author-title {
+    font-family: 'Inconsolata', monospace;
+ 
+  }
+
+  .text-wrapper {
+    padding: 2em 1.3em;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+  .video-wrapper {
+    padding: 0 1.3em;
+
+  }
+    .video {
+    border: 3px solid #000;
+    }
+
+
+  .section-footnotes {
+    border-top: 1px solid #0affa8;
+    padding-top: 1em;
+  }
+
+    @include media-query($on-laptop) {
+
+.inner-section-wrapper {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.title-info {
+  min-height: 80vh;
+}
+
+ .story-title {
+    
+    font-size: 4vw;
+    border: solid 5px;
+    padding: .5em;
+    line-height: 1.3;    
+  }
+    .sub-title {
+    font-size: 2.5vw;
+
+    }
+
+}
+
+}
